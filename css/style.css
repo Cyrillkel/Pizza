@@ -366,6 +366,7 @@ body {
   }
 
   @media (max-width: 767px) {
+     
       .box {
           flex-direction: column;
       }
@@ -375,6 +376,7 @@ body {
       .nav > li {
           padding-left: 0px;
           margin-left: 0px; 
+          margin-bottom: 25px;
       }
       .nav > li::before {
         display: none;
@@ -386,8 +388,26 @@ body {
       .menu > li {
           padding-left: 0px;
           margin-left: 0px;
+          margin-bottom: 25px;
       }
       .menu > li::before {
        display: none;
       }    
+      .h2 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+  
+      .btn-start {
+        font-size: 16px;
+        background-size: contain;
+    }
+    .number-two::after {
+        background-image: url(../image/icon02.png);
+        width: 168px;
+        height: 81px;
+        left: 90px;
+        top: calc(50% - 40px);
+    }
+  
   }
